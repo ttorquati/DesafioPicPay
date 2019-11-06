@@ -18,13 +18,11 @@ Tentei componentizar ao máximo, mas ao longo do desenvolvimento vi que poderia 
 
 No geral gostei muito da experiência, e do resultado final. Notei vários pontos que posso melhorar ainda mais, como melhoria para o projeto caso tivesse mais tempo, olharia com mais carinho para a parte responsiva do site, a componentização de mais elementos que encontrei pelo caminho, também gostaria de ter implementado mais validações com o YUP Schema e a implementação dos testes com Jest.
 
-## Demo na HerokuApp - (Em alguns momentos o site pode estar fora no Heroku)
-### https://picpay-frontend.herokuapp.com/  
+Utilizei o Reactotron para monitorar as chamadas e troca de estados, pode ser que apareça algum 'error' no console que não conseguiu se conectar a ele em ambiente de dev, mas isso não impede que o site funcione.
 
-
-Abaixo alguns scripts para executar o projeto
-
-- Utilizei o Reactotron para monitorar as chamadas e troca de estados, pode ser que apareça algum 'error' no console que não conseguiu se conectar a ele em ambiente de dev, mas isso não impede que o site funcione.
+## Demo na HerokuApp
+### https://picpay-frontend.herokuapp.com/
+(Em alguns momentos o site pode estar fora no Heroku)
 
 ## Available Scripts
 
