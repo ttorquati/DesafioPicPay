@@ -10,7 +10,7 @@ Utilizei o Redux e Redux Saga para o gerenciamento dos estados de cartões, valo
 
 Também utilizei styled components para o CSS, uma lib excelente para estilizar a aplicação, conta com vários benefícios para facilitar a construção da aplicação.
 
-Apliquei loadings como feedback para os usuários, uma forma de dizer para eles aguardarem um momento de forma amigável (Eu adoro esse tipo de coisa / animação / feedback pro usuário).
+Apliquei loadings como feedback para os usuários, uma forma de dizer para eles aguardarem um momento de forma amigável (Eu adoro esse tipo de coisa / animação / feedback pro usuário). Fiz uso de toasters para validar a transação, ao selecionar um cartão inválido, uma mensagem é exibida para o usuário também, novamente o feedback maroto :D
 
 Para os layouts entre desktop / mobile utilizei uma lib que identifica o dispositivo do usuário e para cada um deles eu chamei rotas específicas (alterando o endereço da URL sempre), no caso do desktop estou chamando as rotas de modal/popup e para o mobile eu chamo as rotas normalmente sem a modal, criando um layout "fullscreen". (quando testar o site em dispositivos diferentes, lembre-se de dar um refresh para que o site faça a validação/identificação do dispositivo, como se estivesse acessando o site pela primeira vez).
 
